@@ -30,7 +30,7 @@ axios.interceptors.response.use(function (response) {
 
 const base = {
   axios: axios,
-  baseUrl: 'https://openkey.cloud'
+  baseUrl: 'https://openkey.cloud/v1'
 }
 
 export default base
